@@ -41,5 +41,8 @@ int main(int argc,char *argv[])
 	printf("after swapping\n***********\n");
 	printf("%s\n",rbuf1);
 	printf("%s\n",rbuf);
+	
+	close(fd1);
+	close(fd2);
 
 }
